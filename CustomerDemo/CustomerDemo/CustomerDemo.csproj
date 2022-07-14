@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.3.0" />
+    <PackageReference Include="HandyControl" Version="3.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Extended.Wpf.Toolkit.PropertyGrid.Collection">
+      <HintPath>..\..\..\..\vs2019\extended.wpf.toolkit.propertygrid.collection\src\Extended.Wpf.Toolkit.PropertyGrid.Collection\bin\Debug\Extended.Wpf.Toolkit.PropertyGrid.Collection.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
